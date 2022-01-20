@@ -52,12 +52,38 @@ ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
 ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo*/
 
 body{
-    width: 20em;
     margin: auto 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+	background-color: rgb(41, 41, 41);
+	color: rgb(226, 226, 226);
 }
 
 header{
-    font-size: 10em;
+    font-size: 7.5em;
+    text-align: center;
+    font-weight:bold;
 }
 
+img{
+	padding: 20px;
+	width: 650px;
+}
+
+div{
+	text-align: center;
+}
+
+
+p{
+	text-align: center;
+	line-height: 25px;
+}
+
+dt{
+	font-weight: bold;
+}
+
+dt, dd{
+	text-align: center;
+	line-height: 25px;
+}
